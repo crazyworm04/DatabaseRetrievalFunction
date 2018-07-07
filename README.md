@@ -1,5 +1,5 @@
 # DatabaseRetrievalFunction
-Simple program for obtaining a column of data from a postgreSQL database.
+Simple program for retrieving data from a postgreSQL database.
 
 ## User story
 As a back-end developer, I would like a Java program (to be used as an API) for retrieving JSON data from a record within the database, based upon an ID found as a key within the JSON fields (not the primary key ID for the database record). This ID will be a unique number that will be provided to the program (and later API) as a queryStringParameter, which will then search the database JSON data and retrieve the corresponding JSON data that contains that unique ID.   
